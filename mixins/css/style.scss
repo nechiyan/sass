@@ -1,0 +1,20 @@
+@mixin centrecontainer($bg, $color) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: $bg;
+    color: $color;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+#home{
+    @include centrecontainer(blue,white);
+  
+}
+#abt{
+    @include centrecontainer(red,black);
+    
+}

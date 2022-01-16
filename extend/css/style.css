@@ -1,0 +1,16 @@
+.basic, .danger, .success {
+  padding: 35px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.danger {
+  background: green;
+}
+
+.success {
+  background: red;
+}
+/*# sourceMappingURL=style.css.map */

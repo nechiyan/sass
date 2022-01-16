@@ -1,0 +1,18 @@
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+ul li a {
+  color: red;
+}
+
+ul li a:hover {
+  color: blue;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+$primary:green;
+h1{
+    $primary:red !global;
+    color:$primary;
+}
+p{
+    color: $primary;
+}
+a{
+    color: $primary;
+}

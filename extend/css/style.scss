@@ -1,0 +1,15 @@
+.basic{
+    padding: 35px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+.danger{
+    @extend .basic;
+    background: green;
+}
+.success{
+    @extend .basic;
+    background: red;
+}
